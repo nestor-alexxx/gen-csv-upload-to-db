@@ -1,0 +1,4 @@
+ALTER TABLE public.s1_1 ADD CONSTRAINT s1_1_pk PRIMARY KEY (doc_id,item,category,amount,price,discount);
+ALTER TABLE public.s1_2 ADD CONSTRAINT s1_2_pk PRIMARY KEY (doc_id,item,category,amount,price,discount);
+...
+ALTER TABLE public.s4_1 ADD CONSTRAINT s4_1_pk PRIMARY KEY (doc_id,item,category,amount,price,discount);

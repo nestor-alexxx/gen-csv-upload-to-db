@@ -1,0 +1,27 @@
+CREATE TABLE public.s1_1 (
+	doc_id varchar NOT NULL,
+	item varchar NOT NULL,
+	category varchar NOT NULL,
+	amount int4 NOT NULL,
+	price int4 NOT NULL,
+	discount int4 NOT NULL
+);
+CREATE TABLE public.s1_2 (
+	doc_id varchar NOT NULL,
+	item varchar NOT NULL,
+	category varchar NOT NULL,
+	amount int4 NOT NULL,
+	price int4 NOT NULL,
+	discount int4 NOT NULL
+);
+
+...
+
+CREATE TABLE public.s4_1 (
+	doc_id varchar NOT NULL,
+	item varchar NOT NULL,
+	category varchar NOT NULL,
+	amount int4 NOT NULL,
+	price int4 NOT NULL,
+	discount int4 NOT NULL
+);

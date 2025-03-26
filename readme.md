@@ -6,16 +6,15 @@
 Если не установлены, скачать и установить с https://www.python.org/downloads/
 
 
-2. Перейдите в каталог проекта и скачайте все файлы и папки
+2. Скачайте проект 
+
+    cd путь/к/папке/с/проектами
+    git clone https://github.com/nestor-alexxx/gen-csv-upload-to-db.git
+
+
+3. Перейдите в каталог проекта, создайте виртуальное окружение и активируйте его:
 
     cd путь/к/проекту
-    git clone https://github.com/nestor-alexxx/gen-csv-upload-to-db.git 
-    
-Создайте папку data, в которую будут сохраняться выгрузки из касс.
-
-
-3. Создайте виртуальное окружение и активируйте его:
-
     python -m venv venv
     .\venv\Scripts\activate
 
